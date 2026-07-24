@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Small Talk Conversations</title>
+
+<style>
+:root{
+    --primary:#2f6f5e;
+    --primary-light:#e8f3ef;
+    --background:#f7f8f7;
+    --white:#ffffff;
+    --border:#d8e4df;
+    --text:#222;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:var(--background);
+    color:var(--text);
+}
+
+header{
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:clamp(34px,5vw,52px);
+}
+
+main{
+    width:min(900px, calc(100% - 30px));
+    margin:40px auto 60px;
+}
+
+.card{
+    background:var(--white);
+    border:1px solid var(--border);
+    border-radius:18px;
+    padding:28px;
+    margin-bottom:24px;
+    box-shadow:0 4px 12px rgba(0,0,0,.06);
+}
+
+.card h2{
+    margin:0 0 18px;
+    color:var(--primary);
+    font-size:30px;
+    font-weight:700;
+}
+
+audio{
+    width:100%;
+}
+
+@media (max-width:600px){
+
+header{
+    padding:36px 18px;
+}
+
+.card{
+    padding:20px;
+}
+
+.card h2{
+    font-size:24px;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Small Talk Conversations</h1>
+</header>
+
+<main>
+
+    <section class="card">
+        <h2>Conversation 1</h2>
+        <audio controls preload="metadata">
+            <source src="audio/conversation 1.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section class="card">
+        <h2>Conversation 2</h2>
+        <audio controls preload="metadata">
+            <source src="audio/conversation 2.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section class="card">
+        <h2>Conversation 3</h2>
+        <audio controls preload="metadata">
+            <source src="audio/conversation 3.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section class="card">
+        <h2>Conversation 4</h2>
+        <audio controls preload="metadata">
+            <source src="audio/conversation 4.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section class="card">
+        <h2>Conversation 5</h2>
+        <audio controls preload="metadata">
+            <source src="audio/conversation 5.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section class="card">
+        <h2>Conversation 6</h2>
+        <audio controls preload="metadata">
+            <source src="audio/conversation 6.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+</main>
+
+</body>
+</html>
